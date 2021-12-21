@@ -1,0 +1,30 @@
+@import "./variable";
+.prox {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+     -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+     padding: 20px 10px;
+     -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+      background: pink;
+     width: 90%;
+     max-width: 1000px;
+     margin: 1.6em auto;
+     font-family: 'Corinthia', cursive;
+  }
+  
+ .proximamente {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+    width: auto;
+    max-height: 500px;
+    max-width: 600px;
+  }

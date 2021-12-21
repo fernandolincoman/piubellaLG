@@ -1,0 +1,64 @@
+.titulo {
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    color: salmon;
+  }
+  
+  .contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 20px 10px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background: gainsboro;
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    gap: 1.6em;
+    background: pink;
+    padding: 20px;
+    border: 1px black;
+  }
+  
+  .hedear__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 20px 10px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .hedear__lista {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .hedear__item {
+    margin: 0px 10px;
+    a:hover {
+        color: red;
+      }
+     
+  }
+  
+   

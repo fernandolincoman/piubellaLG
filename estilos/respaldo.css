@@ -16,6 +16,7 @@ body {
     padding: 20px;
     text-align: center;
     font-size: 2.5em;
+    color: salmon;
 }
 .contenedor{
     display: flex;
@@ -27,18 +28,11 @@ body {
     width: 90%;
     max-width: 1000px;
     margin: 1.6em auto;
-    display: grid;
     gap: 1.6em;
-    grid-template-columns: repeat(4, 1fr);
     background:pink;
     padding: 20px;
     border: 1px black;
-    grid-template-areas: "contenedor contenedor contenedor contenedor"
-                         "pestañas pestañas pestañas barra"
-                         "pestañas pestañas pestañas barra"
-                         "pestañas pestañas pestañas barra"
-                         "pestañas pestañas pestañas barra"
-                         "pie pie pie pie";
+    
 }
 .hedear__logo{
     display: flex;
@@ -50,6 +44,7 @@ body {
 .hedear__lista{
     display: flex;
     list-style: none;
+    align-items: center;
     }
     .hedear__item{
         margin: 0px 10px;
@@ -85,15 +80,94 @@ a:hover{
     font-family: 'Roboto', sans-serif;
     
 }
-.contenedor{
-    grid-area: contenedor;
+.prox{
+
+    background-image: url(./img/proximamente\ cursos.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    background: pink;
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    font-family: 'Corinthia', cursive;
 }
-.pestañas{
-    grid-area: pestañas;
+.proximamente{
+    align-items: center;
+    height: auto;
+    width: auto;
+    max-height: 500px;
+    max-width: 600px;
+    
 }
-.barra{
-    grid-area: barra;
+.contactos{
+    background-color: darksalmon;
 }
-.pie{
-    grid-area: pie;
+.servicios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    background: rgb(255, 23, 23);
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    gap: 1.6em;
+    background:rgb(240, 221, 224);
+    padding: 20px;
+    border: 1px black;
+}
+.servicios__imagen{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+}
+.nav__servicios{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    }
+    .servicio__lista{
+        margin: 0px 0px;
+    }
+a:hover{
+    color:red;
+}
+.cara{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    background: rgb(255, 23, 23);
+    width: 100%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    gap: 1.6em;
+    background:rgb(240, 221, 224);
+    padding: 20px;
+    border: 1px black;
+}
+
+.img{
+    height: auto;
+    width: auto;
+    max-height: 500px;
+    max-width: 600px;
+   
+}
+.tex{
+    background: gainsboro;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.titulo{
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    color: salmon;
 }

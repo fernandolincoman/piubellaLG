@@ -21,13 +21,10 @@ body {
     width: 90%;
     max-width: 1000px;
     margin: 1.6em auto;
-    display: grid;
     gap: 1.6em;
-    grid-template-columns: 50% 50%;
     background:rgb(240, 221, 224);
     padding: 20px;
     border: 1px black;
-    grid-column: 1/2;
 }
 .servicios__imagen{
     display: flex;
@@ -39,9 +36,10 @@ body {
 .nav__servicios{
     display: flex;
     list-style: none;
+    align-items: center;
     }
     .servicio__lista{
-        margin: 10px 10px;
+        margin: 0px 0px;
     }
 a:hover{
     color:red;
@@ -56,12 +54,10 @@ a:hover{
     width: 100%;
     max-width: 1000px;
     margin: 1.6em auto;
-    display: grid;
     gap: 1.6em;
     background:rgb(240, 221, 224);
     padding: 20px;
     border: 1px black;
-    grid-template-columns: 1fr
 }
 
 .img{
@@ -75,14 +71,9 @@ a:hover{
     background: gainsboro;
     font-family: 'Source Sans 3', sans-serif;
 }
-
-.servicio{
-    grid-area: servicio;
-
-}
-.cara{
-    grid-area: cara;
-}
-.pie{
-    grid-area: pie;
+.titulo{
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    color: salmon;
 }

@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    /* background-color: #ecf0f1; */
+    background: radial-gradient(black 3px, transparent 4px), radial-gradient(black 3px, transparent 4px), linear-gradient(#fff 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #fff;
+    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    color: #000000;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.titulo{
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    color: salmon;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    background: gainsboro;
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    gap: 1.6em;
+    background:pink;
+    padding: 20px;
+    border: 1px black;
+    
+}
+.hedear__logo{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+}
+.hedear__lista{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    }
+    .hedear__item{
+        margin: 0px 10px;
+    }
+a:hover{
+    color:red;
+}
+.pestañas{
+    height: 70vh;
+    background-image: url("../img/imagen\ del\ inicio.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.pestañas__contenedor{
+    width: 550px;
+    position: relative;
+    left: 30px;
+}
+.pestañas__titulo{
+    font-family: 'Corinthia', cursive;
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 400;
+}
+.pestañas__btn{
+    padding: 20px 12px;
+    border: none;
+    background-color: rgb(175, 10, 10);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.prox{
+
+    background-image: url(./img/proximamente\ cursos.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    background: pink;
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    font-family: 'Corinthia', cursive;
+}
+.proximamente{
+    align-items: center;
+    height: auto;
+    width: auto;
+    max-height: 500px;
+    max-width: 600px;
+    
+}
+.contactos{
+    background-color: darksalmon;
+}
+.servicios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    background: rgb(255, 23, 23);
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    gap: 1.6em;
+    background:rgb(240, 221, 224);
+    padding: 20px;
+    border: 1px black;
+}
+.servicios__imagen{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+}
+.nav__servicios{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    }
+    .servicio__lista{
+        margin: 0px 0px;
+    }
+a:hover{
+    color:red;
+}
+.cara{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    background: rgb(255, 23, 23);
+    width: 100%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    gap: 1.6em;
+    background:rgb(240, 221, 224);
+    padding: 20px;
+    border: 1px black;
+}
+
+.img{
+    height: auto;
+    width: auto;
+    max-height: 500px;
+    max-width: 600px;
+   
+}
+.tex{
+    background: gainsboro;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.titulo{
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    color: salmon;
+}

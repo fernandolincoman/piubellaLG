@@ -1,0 +1,35 @@
+.pestañas {
+    height: 70vh;
+    background-image: url("../img/imagen\ del\ inicio.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .pestañas__contenedor {
+    width: 550px;
+    position: relative;
+    left: 30px;
+  }
+  
+ .pestañas__titulo {
+    font-family: 'Corinthia', cursive;
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 400;
+  }
+  
+.pestañas__btn {
+    padding: 20px 12px;
+    border: none;
+    background-color: #af0a0a;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
